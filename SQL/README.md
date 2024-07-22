@@ -1,6 +1,6 @@
-#Walmart Sales Dataset Analysis
+# Walmart Sales Dataset Analysis
 
-Introduction
+## Introduction
 This readme provides an overview of the analysis performed on the Walmart sales dataset using SQL queries. The dataset contains information on sales transactions including invoice details, customer demographics, product details, and financial metrics.
 
 Dataset Overview
