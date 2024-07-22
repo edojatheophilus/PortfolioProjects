@@ -29,7 +29,7 @@ Rating: Customer rating for the product purchased.
 | Branch                        | Branch identifier                                         | VARCHAR(50)       |
 | Date                          | Date of the transaction                                   | DATE              |
 | Time                          | Time of the transaction                                   | TIME              |
-| Customer_type                 | Type of customer (Member or Normal)                        | VARCHAR(20)       |
+| Customer_type                 | Type of customer (Member or Normal)                       | VARCHAR(20)       |
 | Total                         | Total amount of the transaction                           | DECIMAL(12, 2)    |
 | Quantity                      | Quantity of items purchased                               | INT               |
 | Payment                       | Payment method used                                       | VARCHAR(20)       |
@@ -37,16 +37,6 @@ Rating: Customer rating for the product purchased.
 | Rating                        | Customer rating for the product                           | DECIMAL(3, 2)     |
 | Vat                           | Value-added tax amount                                    | DECIMAL(12, 2)    |
 | Gross_margin_percentage       | Gross margin percentage                                   | DECIMAL(5, 2)     |
-| Day_of_week                   | Day of the week (1-7, where 1 is Sunday)                  | INT               |
-| Month                         | Month of the transaction                                  | INT               |
-| Hour                          | Hour of the transaction (24-hour format)                  | INT               |
-| Weekend                       | Indicator if the day is a weekend (1 for yes, 0 for no)   | BIT               |
-| Is_a_Member                   | Indicator if the customer is a member (1 for yes, 0 for no)| BIT              |
-| Avg_Transaction_Amount_per_Item | Average transaction amount per item                      | DECIMAL(12, 4)    |
-| Total_Sales_Per_Branch        | Total sales per branch                                    | DECIMAL(12, 2)    |
-| Total_Sales_Per_Product_line  | Total sales per product line                              | DECIMAL(12, 2)    |
-| Product_Category              | Categorization of product quality (Good or Bad)            | VARCHAR(20)       |
-| Rating_Category               | Categorization of customer rating (Good_rating or Bad_rating)| VARCHAR(20)     |
 ## SQL Analysis
 ## Feature Engineering
 ## Date and Time Features
