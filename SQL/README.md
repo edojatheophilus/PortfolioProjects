@@ -38,6 +38,11 @@ Rating: Customer rating for the product purchased.
 | Vat                           | Value-added tax amount                                    | DECIMAL(12, 2)    |
 | Gross_margin_percentage       | Gross margin percentage                                   | DECIMAL(5, 2)     |
 ## SQL Analysis
+## Data Wrangling
+In the first stage, the data undergoes thorough examination to identify any instances of NULL or missing values. Strategies are then devised to effectively handle and replace these values where necessary.
+
+## Database Creation
+The process begins by constructing a database where tables are defined and data is inserted accordingly. During the table creation, each field is specified as NOT NULL, ensuring that no null values are present in the database. This approach effectively filters out any potential null values from the outset.
 ## Feature Engineering
 ## Date and Time Features
 Day of the Week: Added day_of_week column indicating the day number (1-7).
