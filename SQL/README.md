@@ -1,3 +1,7 @@
+
+![WalmartLogo](https://github.com/user-attachments/assets/30e17e0a-a685-4b66-b159-c96dba30c699)
+
+
 # Walmart Sales Dataset Analysis
 
 ## Introduction
