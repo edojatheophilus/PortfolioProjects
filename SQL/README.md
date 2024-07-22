@@ -1,9 +1,10 @@
 # Walmart Sales Dataset Analysis
 
 ## Introduction
-This readme provides an overview of the analysis performed on the Walmart sales dataset using SQL queries. The dataset contains information on sales transactions including invoice details, customer demographics, product details, and financial metrics.
+Walmart sales analysis using SQL queries. 
+The dataset contains information on sales transactions including invoice details, customer demographics, product details, and financial metrics.
 
-Dataset Overview
+## Dataset Overview
 The dataset used for analysis is stored in the WalmartSales table within the PortfolioProject database. It includes the following key columns:
 
 Invoice_ID: Unique identifier for each transaction.
@@ -14,8 +15,9 @@ Total: Total amount of the transaction.
 Quantity: Quantity of items sold in each transaction.
 Vat: Value-added tax applied to the transaction.
 Rating: Customer rating for the product purchased.
-SQL Analysis
-Feature Engineering
+
+## SQL Analysis
+## Feature Engineering
 Date and Time Features
 Day of the Week: Added day_of_week column indicating the day number (1-7).
 Month: Added Month column indicating the month number (1-12).
